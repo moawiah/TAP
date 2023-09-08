@@ -1,5 +1,9 @@
 # Week 4 - Project
 
+## Description
+
+Create a Node.js program that reads a list of file paths from a configuration file and processes each file asynchronously. The processing involves counting the number of words in each file and displaying the results.
+
 ## Background
 
 This project covers the following topics:
@@ -41,3 +45,22 @@ files/file1.txt: 75 words
 files/file2.txt: 103 words
 files/file3.txt: 42 words
 ```
+
+## Testing
+
+Your code should handle the following
+
+- Empty files
+- Files with special characters
+- Files that do not exist
+
+You are always encouraged to check external resources to check how such cases are handled. 
+
+
+## Coding Style
+
+Make sure your code includes the following
+
+- Clean coding with proper readability 
+- Proper comments and documentation 
+- Your code should implemented in JavaScript.
