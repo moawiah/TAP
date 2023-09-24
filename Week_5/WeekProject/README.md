@@ -68,7 +68,11 @@ Here is a suggested structure:
 - Use the body-parser middleware to handle form submissions.
 - Handle errors for file operations and invalid routes.
 - Implement client-side scripting in scripts.js (if necessary) for interactivity.  
+- Data folder should contain random files like *file1.txt, file2.txt, and file3.txt*. 
+    - They should contain various data like JSON & text
+    - Your application will read, create, update, and delete files within this "data" folder based on user interactions.
 
 > Notes:  
 > Provide meaningful log messages throughout the application.  
 > Make sure you understand the flow End2End
+
