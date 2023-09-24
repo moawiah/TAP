@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title File Management App
+    link(rel='stylesheet', href='/styles.css')
+  body
+    h1 File Management App
+    h2 List of Files
+    ul
+      each file in files
+        li
+          a(href=`/files/${file}`)= file
+    h2 Create a New File
+    a(href='/create') Create a New File
+    script(src='/scripts.js')
