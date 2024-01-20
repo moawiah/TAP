@@ -3,7 +3,7 @@
 We will describe here instructions, requirements, and general steps you need to follow to establish your backend API.
 
 ## General Steps
-- Check FrontEnd desing that the FE team is going to implement at: `<Insert the link here>`
+- Check FrontEnd design that the FE team is going to implement at: `<Insert the link here>`
 - Read all FE requirements for the FE API part so you provide coherent and suitable endpints as you are expected to work closely with the FE team. `<Insert the link here>`
 - Create a sheet (or any other organising component) that shows/maps each endpoint with its expected inputs and outputs. This documentation will serve as a contact point with FE team.
 
@@ -38,17 +38,17 @@ We already covered some general file structure approached during the course - he
 - Store hashed passwords in the database.
 
 ### 3. Database Schema
-- You need to desing a clear DB schema and discuss with your team and instructor afterwards. Main tables are expected to be there like Users, Products, Categories, and any more tables you see fit.
+- You need to design a clear DB schema and perform a design review DR with your team and instructor afterwards. Main tables are expected to be there like Users, Products, Categories, and any more tables you see fit.
 - Be prepared to support all needed use cases for the MVP and answer any schema questions with good and clear technical arguments.
 
 ### 4. Product Features
-- According to the general project requirements and **FE Requirements**, there are some product features that need to be supported:
+- According to the general project requirements and **FE Requirements** (Do not forget to read FE requirements), there are some product features that need to be supported:
     - Categories, Brands, and other metadata for products.
     - Implement logic for discounts, ratings, new arrivals, and handpicked collections.
 
 ### 5. Simulated Payments
 - Implement a dummy payment system for testing purposes (e.g., print a success message).
-- One option:  Simulate success or failure based on your testing needs byt creating its own controller, for instance, create a `simulatePaymentProcessing` with a _specific success rate_ to simulate transactions.
+- One option:  Simulate success or failure based on your testing needs by creating its own controller, for instance, create a `simulatePaymentProcessing` with a _specific success rate_ to simulate transactions.
 
 ### 6. Error Handling
 - Implement a robust error-handling mechanism with appropriate status codes and error messages.
