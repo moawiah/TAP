@@ -13,12 +13,14 @@ There are also many other options, like the famous AWS, Azure, and Google Fireba
 
 ## Suggested Approach
 
-We will discuss here a simple approach that is a hybrid between two of the above mentioned paltforms. This option uses basic (free of charge) packages for the sake of deploying educational apps. We will deploy our app using Render and data using Clever Cloud.
+We will discuss here a simple hybrid approach that uses two of the above mentioned paltforms. It uses basic (free of charge) packages for the sake of deploying educational apps. We will deploy our **app** using Render and **data** using Clever Cloud.
 
 ### Deploy your app
-You can use Render for a relatively quick deployment procedure. It needs some simple configuration and a couple of clicks. We are attaching here a video that assists you with the steps.
+You can use Render for a relatively quick deployment procedure. It needs some simple configuration and a couple of clicks. We are attaching a video that assists you with the steps.
 
 [Render Deployment Steps](https://www.youtube.com/watch?v=bnCOyGaSe84&list=PLltvzQrCl_iQPgzpYQLbW0B3P0gSXN-o2&index=7)
+
+> Make sure you do not have a browser pop up blocker for render apps.
 
 
 ### Deploy your DB data
