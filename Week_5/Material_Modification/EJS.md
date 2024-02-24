@@ -1,4 +1,4 @@
-# Tenplate Engines 
+# Template Engines 
 
 In the Node.js ecosystem, there are several popular template engines used for generating dynamic HTML content. Here are some of the main ones:
 - **JS (Embedded JavaScript):** EJS allows you to embed JavaScript code directly within your HTML templates. It's easy to learn and use, as it follows the familiar syntax of HTML.
