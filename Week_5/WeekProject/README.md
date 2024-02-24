@@ -9,7 +9,7 @@ The project aims to refresh/bridge any gaps for the following concepts:
 - Error Handling
 - File Modules
 - Basic API Structure
-- PUG 
+- EJS 
 - HTTP & Restful APIs
 
 ## Description 
@@ -29,9 +29,9 @@ Here is a suggested structure:
 - project-directory/
   - server.js
   - views/
-    - index.pug
-    - create.pug
-    - detail.pug
+    - index.ejs
+    - create.ejs
+    - detail.ejs
   - public/
     - styles.css
     - scripts.js
@@ -42,13 +42,12 @@ Here is a suggested structure:
 ## Instructions
 - Set up your project directory structure as shown above.
 
-- Initialize a Node.js project by running npm init and install the necessary dependencies:
-`npm install express pug body-parser`
+- Initialize a Node.js project by running npm init and install the necessary dependencies using `npm install`
 
-- Create the following Pug templates in the "views" directory:
-    - `index.pug` - For listing files.
-    - `create.pug` - For creating a new file.
-    - `detail.pug` - For viewing the content of a specific file.
+- Create the following EJS templates in the "views" directory:
+    - `index.ejs` - For listing files.
+    - `create.ejs` - For creating a new file.
+    - `detail.ejs` - For viewing the content of a specific file.
 
 - Create the following static files in the "public" directory:
     - `styles.css` - For styling the application.
@@ -64,7 +63,7 @@ Here is a suggested structure:
 - Style your application using the `styles.css` file.
 
 ## Hints
-- Use Express.js to route requests and render Pug templates.
+- Use Express.js to route requests and render EJS templates.
 - Use the body-parser middleware to handle form submissions.
 - Handle errors for file operations and invalid routes.
 - Implement client-side scripting in scripts.js (if necessary) for interactivity.  
