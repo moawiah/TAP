@@ -76,3 +76,11 @@ Here is a suggested structure:
 > Provide meaningful log messages throughout the application.  
 > Make sure you understand the flow End2End
 
+
+## Bonus Tasks
+In case you finished all of the above before schedule, add one or some of the following features to the project
+- **File Upload**: Users can upload files to the server.
+- **File Retrieval**: Users can retrieve a list of uploaded files and download individual files.
+- **File Search**: Implement a search functionality to allow users to search for files by name or metadata.
+- **File Compression**: Provide an option for users to compress files before uploading or download compressed files.
+- **File Encryption**: Implement file encryption for added security during storage and transmission.
